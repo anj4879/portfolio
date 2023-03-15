@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(245, 240, 240);
+    width: 16wv;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.sidebar nav{
+    padding: 60 px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background-color: beige;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: aliceblue;
+    height: 69vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo {
+    display: flex;
+    height: 69vh;
+    justify-content: centre;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+.hello{
+    font-size: 40px;
+    font-family: 'fira sans', sans-serif;
+    
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about{
+    font-size: 18px;
+}
+.moreabout{
+    font-size: 29px;
+    margin-top: 23px;
+}
+.skill{
+    font-size: 29px;
+}
+.buttons{
+    margin-top: 34px;
+
+}
+
+.btn{
+    padding: 4px 5px;
+    border-radius: 6px;
+    color: lightblue;
+    background-color: rgb(2, 23, 23);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+    padding: 9px 9px;
+    margin: 9px 0;
+}
+.btn:hover{
+    color: rgb(1, 19, 24);
+    background-color: rgb(120, 241, 241);
+}
+.devpic img{
+    width: 90px;
+    
+
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 34px;
+    font-family: 'fira sans', sans-serif;
+    
+}
+.contactform h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 16vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 56px;
+    margin: 14px 0;
+
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'fira sans', sans-serif;
+}
+h1{
+    font-family: 'fira sans', sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.intro h2{
+    font-family: 'fira sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900px;
+}
+.skill{
+    width: 265px;
+    height:13px;
+    background-color:red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: aqua;
+}
+.fifty{
+    width: 125px;
+    background-color: brown;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+
+.projecttopic{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900px;
+}
+.project{
+    width: 265px;
+}
